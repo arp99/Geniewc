@@ -1,0 +1,18 @@
+{
+  "name": "geniewc",
+  "version": "1.0.0",
+  "description": "unix wc tool inspiration",
+  "main": "bin/index.js",
+  "bin": {
+    "geniewc": "node ./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arp99",
+  "license": "ISC",
+  "dependencies": {
+    "@govtechsg/sgds-react": "^2.3.0"
+  }
+}
